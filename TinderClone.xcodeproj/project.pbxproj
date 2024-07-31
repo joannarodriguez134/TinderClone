@@ -14,6 +14,19 @@
 		A78CD5CE2C59A3D80076C202 /* TinderCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5CD2C59A3D80076C202 /* TinderCloneTests.swift */; };
 		A78CD5D82C59A3D80076C202 /* TinderCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5D72C59A3D80076C202 /* TinderCloneUITests.swift */; };
 		A78CD5DA2C59A3D80076C202 /* TinderCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5D92C59A3D80076C202 /* TinderCloneUITestsLaunchTests.swift */; };
+		A78CD5F12C59A4C30076C202 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5F02C59A4C30076C202 /* MainTabView.swift */; };
+		A78CD5F42C59A6C40076C202 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5F32C59A6C40076C202 /* CardView.swift */; };
+		A78CD5F62C59A9300076C202 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5F52C59A9300076C202 /* UserInfoView.swift */; };
+		A78CD5F82C59B4710076C202 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5F72C59B4710076C202 /* SwipeActionIndicatorView.swift */; };
+		A78CD5FB2C59BF450076C202 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5FA2C59BF450076C202 /* SizeConstants.swift */; };
+		A78CD5FD2C59C1050076C202 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5FC2C59C1050076C202 /* ImageScrollingOverlay.swift */; };
+		A78CD5FF2C59C63C0076C202 /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5FE2C59C63C0076C202 /* CardImageIndicatorView.swift */; };
+		A78CD6012C59C9860076C202 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD6002C59C9860076C202 /* CardStackView.swift */; };
+		A78CD6052C59CD950076C202 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD6042C59CD950076C202 /* User.swift */; };
+		A78CD6082C59CDF60076C202 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD6072C59CDF60076C202 /* CardModel.swift */; };
+		A78CD60B2C59CF2E0076C202 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD60A2C59CF2E0076C202 /* CardsViewModel.swift */; };
+		A78CD60E2C59CF980076C202 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD60D2C59CF980076C202 /* CardService.swift */; };
+		A78CD6112C59D0810076C202 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD6102C59D0810076C202 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		A78CD5D32C59A3D80076C202 /* TinderCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78CD5D72C59A3D80076C202 /* TinderCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITests.swift; sourceTree = "<group>"; };
 		A78CD5D92C59A3D80076C202 /* TinderCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A78CD5F02C59A4C30076C202 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A78CD5F32C59A6C40076C202 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A78CD5F52C59A9300076C202 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		A78CD5F72C59B4710076C202 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
+		A78CD5FA2C59BF450076C202 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		A78CD5FC2C59C1050076C202 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		A78CD5FE2C59C63C0076C202 /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
+		A78CD6002C59C9860076C202 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		A78CD6042C59CD950076C202 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A78CD6072C59CDF60076C202 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		A78CD60A2C59CF2E0076C202 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		A78CD60D2C59CF980076C202 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		A78CD6102C59D0810076C202 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +120,11 @@
 		A78CD5BB2C59A3D70076C202 /* TinderClone */ = {
 			isa = PBXGroup;
 			children = (
-				A78CD5BC2C59A3D70076C202 /* TinderCloneApp.swift */,
+				A78CD5EA2C59A42D0076C202 /* Utils */,
+				A78CD5E92C59A4280076C202 /* Shared */,
+				A78CD5E82C59A41D0076C202 /* Extensions */,
+				A78CD5E72C59A40D0076C202 /* Core */,
+				A78CD5E62C59A3F10076C202 /* App */,
 				A78CD5BE2C59A3D70076C202 /* ContentView.swift */,
 				A78CD5C02C59A3D80076C202 /* Assets.xcassets */,
 				A78CD5C22C59A3D80076C202 /* Preview Content */,
@@ -125,6 +155,159 @@
 				A78CD5D92C59A3D80076C202 /* TinderCloneUITestsLaunchTests.swift */,
 			);
 			path = TinderCloneUITests;
+			sourceTree = "<group>";
+		};
+		A78CD5E62C59A3F10076C202 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5BC2C59A3D70076C202 /* TinderCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A78CD5E72C59A40D0076C202 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5EC2C59A4480076C202 /* Cards */,
+				A78CD5EF2C59A45A0076C202 /* Messages */,
+				A78CD5ED2C59A44E0076C202 /* Profile */,
+				A78CD5EE2C59A4530076C202 /* Search */,
+				A78CD5EB2C59A4430076C202 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A78CD5E82C59A41D0076C202 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A78CD5E92C59A4280076C202 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD6022C59CD780076C202 /* Users */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A78CD5EA2C59A42D0076C202 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD60F2C59D0650076C202 /* MockData */,
+				A78CD5F92C59BF2E0076C202 /* Constants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A78CD5EB2C59A4430076C202 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5F02C59A4C30076C202 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A78CD5EC2C59A4480076C202 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD60C2C59CF880076C202 /* Service */,
+				A78CD6092C59CF1B0076C202 /* ViewModel */,
+				A78CD6062C59CDEB0076C202 /* Model */,
+				A78CD5F22C59A6B40076C202 /* View */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		A78CD5ED2C59A44E0076C202 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A78CD5EE2C59A4530076C202 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A78CD5EF2C59A45A0076C202 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		A78CD5F22C59A6B40076C202 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5F32C59A6C40076C202 /* CardView.swift */,
+				A78CD5F52C59A9300076C202 /* UserInfoView.swift */,
+				A78CD5F72C59B4710076C202 /* SwipeActionIndicatorView.swift */,
+				A78CD5FC2C59C1050076C202 /* ImageScrollingOverlay.swift */,
+				A78CD5FE2C59C63C0076C202 /* CardImageIndicatorView.swift */,
+				A78CD6002C59C9860076C202 /* CardStackView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A78CD5F92C59BF2E0076C202 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5FA2C59BF450076C202 /* SizeConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A78CD6022C59CD780076C202 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD6032C59CD800076C202 /* Model */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		A78CD6032C59CD800076C202 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD6042C59CD950076C202 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A78CD6062C59CDEB0076C202 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD6072C59CDF60076C202 /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A78CD6092C59CF1B0076C202 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD60A2C59CF2E0076C202 /* CardsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A78CD60C2C59CF880076C202 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD60D2C59CF980076C202 /* CardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A78CD60F2C59D0650076C202 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD6102C59D0810076C202 /* MockData.swift */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +440,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78CD5FD2C59C1050076C202 /* ImageScrollingOverlay.swift in Sources */,
+				A78CD60E2C59CF980076C202 /* CardService.swift in Sources */,
+				A78CD5F12C59A4C30076C202 /* MainTabView.swift in Sources */,
+				A78CD5F82C59B4710076C202 /* SwipeActionIndicatorView.swift in Sources */,
+				A78CD6112C59D0810076C202 /* MockData.swift in Sources */,
 				A78CD5BF2C59A3D70076C202 /* ContentView.swift in Sources */,
+				A78CD5FF2C59C63C0076C202 /* CardImageIndicatorView.swift in Sources */,
+				A78CD6082C59CDF60076C202 /* CardModel.swift in Sources */,
+				A78CD6012C59C9860076C202 /* CardStackView.swift in Sources */,
+				A78CD5F42C59A6C40076C202 /* CardView.swift in Sources */,
+				A78CD5FB2C59BF450076C202 /* SizeConstants.swift in Sources */,
 				A78CD5BD2C59A3D70076C202 /* TinderCloneApp.swift in Sources */,
+				A78CD60B2C59CF2E0076C202 /* CardsViewModel.swift in Sources */,
+				A78CD5F62C59A9300076C202 /* UserInfoView.swift in Sources */,
+				A78CD6052C59CD950076C202 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
