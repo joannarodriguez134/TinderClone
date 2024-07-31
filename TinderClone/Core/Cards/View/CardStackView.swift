@@ -13,6 +13,7 @@ struct CardStackView: View {
         ZStack {
             ForEach(viewModel.cardModels) {
                 card in CardView(model: card)
+                
             }
         }
     }
